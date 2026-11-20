@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="formBorder">
+        <form class="formContainer">
+            <div class="title">
+                <h1>Create Your Account</h1>
+                <p>fill in your details to get started</p>
+            </div>
+           
+<div class="content">
+
+    <div>
+        <i class="fa-solid fa-user" style="color: #4C68B5;"></i>
+        <label>Full Name</label>
+        <input type="text" id="fullName" placeholder="Enter your full name">
+        <small class="error"></small>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-envelope" style="color: #4C68B5;"></i>
+        <label>Email</label>
+        <input  id="email" placeholder="example@gmail.com">
+        <small class="error"></small>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-phone" style="color: #4C68B5;"></i>
+        <label>Phone Number</label>
+        <input type="tel" id="phone" placeholder="+02">
+        <small class="error"></small>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-lock" style="color: #4C68B5;"></i>
+        <label>Password</label>
+
+        <div class="inputContainer">
+            <input type="password" id="password" placeholder="**********">
+            <i class="fa-solid fa-eye" id="togglePassword"
+               style="color: #4C68B5; cursor: pointer;"></i>
+        </div>
+
+        <small class="error"></small>
+    </div>
+
+    <div class="btn">
+       <button type="submit">Sign In</button>
+
+
+</div>
+
+            
+        </form>
+    </div>
+    
+<script src="form.js"></script>
+
+</body>
+</html>
